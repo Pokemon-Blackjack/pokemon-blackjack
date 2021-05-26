@@ -192,8 +192,13 @@ img {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+.btn:focus {
   background-color: #ffd000;
+}
+
+.btn:focus {
+  outline: 3px solid #142b68;
 }
 
 .btn__container {
